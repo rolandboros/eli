@@ -161,6 +161,6 @@ img {
 
   .logo {
     display:block;
-        margin:auto;
+        margin: 0 px;
         float: none;
   }
