@@ -5,7 +5,7 @@ body {
 
 .topnav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(248, 151, 6);
     overflow: hidden;
@@ -120,7 +120,8 @@ img {
 
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 600px) {
     .topnav a {display: none;}
     .logo{ margin:auto;
         float: none;}
@@ -158,11 +159,11 @@ img {
       float: none;
       display: block;
       text-align: center;
-    }
+    
   }
 
   .logo {
     display:block;
-        margin: 0 px;
+        margin: 0px;
         float: none;
-  }
+  } }
